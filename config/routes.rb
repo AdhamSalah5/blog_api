@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   post "/login", to: "auth#login"
   
   resources :posts do
-    resources :comments, only: [:create, :update, :destroy]
+    resources :comments
   end
 end
