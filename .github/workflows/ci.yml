@@ -1,5 +1,9 @@
 name: CI
 
+# ci.yml
+name: "ci"
+on: [workflow_dispatch] # Only runs manually
+
 on:
   pull_request:
   push:
