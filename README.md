@@ -51,8 +51,10 @@ Authorization: Bearer <your_jwt_token>
 
 | Method | Endpoint       | Description         |
 |--------|----------------|---------------------|
-| POST   | /auth/signup   | Register new user   |
-| POST   | /auth/login    | Login & get token   |
+| POST   | /signup        | Register new user   |
+| POST   | /login         | Login & get token   |
+
+Token is generated to allow access to the rest of the API
 
 ---
 
