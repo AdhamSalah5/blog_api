@@ -54,7 +54,7 @@ Authorization: Bearer <your_jwt_token>
 | POST   | /signup        | Register new user   |
 | POST   | /login         | Login & get token   |
 
-Token is generated to allow access to the rest of the API
+> **Note:** Token is generated to allow access to the rest of the APIs
 
 ---
 
